@@ -3,12 +3,14 @@ namespace :db do
   task :migrate do
     puts " :) "
   end
-  #
-  # desc "Pick a random product as the prize"
-  # task :prize => :environment do
-  #   puts "Prize: #{pick(Product).name}"
-  # end
-  #
+end
+
+namespace :assets do
+  desc "Provide assets:precompile"
+  task :precompile do
+    puts " :) :) "
+  end
+
   # desc "Pick a random prize and winner"
   # task :all => [:prize, :winner]
 end
